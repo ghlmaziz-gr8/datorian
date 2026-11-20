@@ -886,17 +886,11 @@ ul.nostyle i {
   color: #45aed6;
 }
 #contact {
-  position: relative;
-  overflow: hidden;
+  padding: 60px 0;
+  background: rgba(69, 174, 214, 0.3);
 }
 #contact .container-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(69, 174, 214, 0.3);
-  z-index: 1;
+  position: relative;
 }
 #contact .contact-form {
   background: rgba(255, 255, 255, 0.8);
